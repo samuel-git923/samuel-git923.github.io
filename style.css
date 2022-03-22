@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Sarala', sans-serif;
+}
+
+.menu {
+    background-color: rgb(214, 255, 241);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu img {
+    width: 200px;
+    padding: 10px;
+}
+
+.menu a {
+    color: black;
+    align-items: center;
+    font-size: 20px;
+}
+
+.menu a:hover {
+    color: darkblue;
+    transition: 0.5s;
+}
+
+.container1 {
+    padding: 20px;
+}
+
+.container2 {
+    padding: 20px;
+}
+
+.main {
+    border-top: 2px solid;
+    text-align: center;
+}
+
+.main h1 {
+    font-size: 82px;
+    padding: 10px;
+    font-family: 'Bungee', cursive;
+    color: rgb(44, 194, 240);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+.main p {
+    font-size: 25px;
+}
+
+.main img {
+    width: 1120px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.main span {
+    text-decoration: underline;
+    display: flex;
+    font-size: 25px; 
+    align-items: center;
+}
+
+.main a {
+    width: 280px;
+    display: flex;
+    font-size: 17px;
+    margin-left: 80px;
+    cursor: pointer;
+    margin: 10px;
+    padding: 5px 10px;
+}
+
+.main a:hover {
+    color: rgb(139, 4, 4);
+    font-size: 18px;
+}
+
+.rodape {
+    height: 70px;
+    background-color:rgb(19, 8, 119);
+    display: block;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.rodape a {
+    color: white;
+    font-size: 40px;
+    margin: 40px;
+}
+
+.rodape a:hover {
+    color: rgb(44, 194, 240);
+    transition: 0.5s;
+}
